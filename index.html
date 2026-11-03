@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Decorative browser bar -->
+  <div class="browser-bar">
+    <span class="browser-arrow">‹</span>
+    <span class="browser-arrow">›</span>
+    <span class="browser-refresh">⟳</span>
+    <div class="address-bar">youtube.com</div>
+    <span class="browser-star">☆</span>
+  </div>
+
+  <!-- YouTube header -->
+  <header class="topbar">
+    <div class="brand-area">
+      <button class="icon-button menu-button" aria-label="Menu">☰</button>
+
+      <a class="brand" href="#">
+        <span class="play-logo">▶</span>
+        <span>YouTube</span>
+        <sup>IN</sup>
+      </a>
+    </div>
+
+    <form class="search">
+      <input type="search" placeholder="Search" aria-label="Search">
+      <button type="button" aria-label="Search">⌕</button>
+      <button class="mic-button" type="button" aria-label="Voice search">🎙</button>
+    </form>
+
+    <div class="top-actions">
+      <button class="create-button" type="button">＋ Create</button>
+      <button class="icon-button notification-button" aria-label="Notifications">♧</button>
+      <div class="profile">D</div>
+    </div>
+  </header>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <a class="side-link active" href="#"><span>⌂</span>Home</a>
+    <a class="side-link" href="#"><span>▣</span>Shorts</a>
+
+    <div class="side-divider"></div>
+
+    <a class="side-heading" href="#">Subscriptions <span>›</span></a>
+    <a class="side-link subscription" href="#">
+      <span class="small-avatar avatar-red">C</span>CodeWithHarry
+    </a>
+    <a class="side-link subscription" href="#">
+      <span class="small-avatar avatar-blue">E</span>ExpHub - Prashant
+    </a>
+    <a class="side-link subscription" href="#">
+      <span class="small-avatar avatar-green">A</span>AF WORLD by AFLU
+    </a>
+    <a class="side-link subscription" href="#">
+      <span class="small-avatar avatar-pink">D</span>Diaries of Harsha
+    </a>
+    <a class="side-link subscription" href="#">
+      <span class="small-avatar avatar-orange">L</span>Lavish Krish
+    </a>
+    <a class="side-link subscription" href="#">
+      <span class="small-avatar avatar-purple">S</span>Saloni Gavde
+    </a>
+
+    <div class="side-divider"></div>
+
+    <a class="side-heading" href="#">You <span>›</span></a>
+    <a class="side-link" href="#"><span>◷</span>History</a>
+    <a class="side-link" href="#"><span>▣</span>Your videos</a>
+    <a class="side-link" href="#"><span>◴</span>Watch later</a>
+    <a class="side-link" href="#"><span>♡</span>Liked videos</a>
+  </aside>
+
+  <!-- Main page -->
+  <main class="main-content">
+    <nav class="categories" aria-label="Video categories">
+      <button class="chosen">All</button>
+      <button>Music</button>
+      <button>Mixes</button>
+      <button>ACP Pradyuman</button>
+      <button>Tamil Cinema</button>
+      <button>Dhar Mann</button>
+      <button>Korean dramas</button>
+      <button>Web series</button>
+      <button>Study Skills</button>
+      <button>Arijit Singh</button>
+      <button>Malayalam cinema</button>
+    </nav>
+
+    <section class="video-grid">
+
+      <article class="video-card">
+        <a class="thumbnail" href="#">
+          <img
+            src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+            alt="Singer performing on stage">
+          <span class="duration">▶ Mix</span>
+        </a>
+        <div class="video-details">
+          <div class="channel-avatar avatar-red">M</div>
+          <div class="video-text">
+            <h2>Mix - Dooron Dooron - (lyrics) Paresh Pahuja</h2>
+            <p>Paresh Pahuja, Anuv Jain, Banjaare, and more · Playlist</p>
+          </div>
+          <button class="more-button" aria-label="More options">⋮</button>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <a class="thumbnail" href="#">
+          <img
+            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+            alt="Student working on a laptop">
+          <span class="duration">3:38</span>
+        </a>
+        <div class="video-details">
+          <div class="channel-avatar avatar-blue">S</div>
+          <div class="video-text">
+            <h2>unstoppable | Law school :study motivation [FMV] 📚</h2>
+            <p>studypill</p>
+            <p>782K views · 3 years ago</p>
+          </div>
+          <button class="more-button" aria-label="More options">⋮</button>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <a class="thumbnail" href="#">
+          <img
+            src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+            alt="Music concert with colorful lights">
+          <span class="duration">▶ Mix</span>
+        </a>
+        <div class="video-details">
+          <div class="channel-avatar avatar-purple">M</div>
+          <div class="video-text">
+            <h2>My Mix</h2>
+            <p>Billie Eilish, Post Malone, KRONO, and more · Playlist</p>
+          </div>
+          <button class="more-button" aria-label="More options">⋮</button>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <a class="thumbnail" href="#">
+          <img
+            src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+            alt="Colorful art supplies on a desk">
+          <span class="duration">12:04</span>
+        </a>
+        <div class="video-details">
+          <div class="channel-avatar avatar-orange">A</div>
+          <div class="video-text">
+            <h2>Simple drawing ideas to try at home</h2>
+            <p>Art for Everyone</p>
+            <p>220K views · 1 month ago</p>
+          </div>
+          <button class="more-button" aria-label="More options">⋮</button>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <a class="thumbnail" href="#">
+          <img
+            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+            alt="Mountain landscape at sunset">
+          <span class="duration">8:45</span>
+        </a>
+        <div class="video-details">
+          <div class="channel-avatar avatar-green">T</div>
+          <div class="video-text">
+            <h2>Beautiful places to visit on your next trip</h2>
+            <p>Travel Today</p>
+            <p>610K views · 2 weeks ago</p>
+          </div>
+          <button class="more-button" aria-label="More options">⋮</button>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <a class="thumbnail" href="#">
+          <img
+            src="https://images.unsplash.com/photo-1521337581100-8ca9a73a5f79?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+            alt="Friends having fun together">
+          <span class="duration">14:32</span>
+        </a>
+        <div class="video-details">
+          <div class="channel-avatar avatar-pink">C</div>
+          <div class="video-text">
+            <h2>Funny moments with friends — best clips this week</h2>
+            <p>Comedy Corner</p>
+            <p>230K views · 5 days ago</p>
+          </div>
+          <button class="more-button" aria-label="More options">⋮</button>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+</body>
+</html>
